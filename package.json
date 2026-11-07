@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build:native": "zsh scripts/build-native.command",
+    "pretest": "npm run build:native",
+    "test": "node --test tests/*.test.mjs",
+    "start": "./start-local.command",
+    "index": "node scripts/build-semantic.mjs"
+  },
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@huggingface/transformers": "4.3.2"
+  },
+  "name": "local-image-search-bot",
+  "version": "0.1.0"
+}

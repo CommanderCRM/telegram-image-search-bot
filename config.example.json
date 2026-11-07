@@ -1,0 +1,5 @@
+{
+  "botUsername": "example_gallery_bot",
+  "imageRoot": "/absolute/path/to/images",
+  "databasePath": "/absolute/path/to/catalog.sqlite3"
+}

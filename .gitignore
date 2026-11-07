@@ -1,0 +1,44 @@
+# Credentials and local configuration/state
+.local/
+.tgcloud/
+.env
+.env.*
+!.env.example
+config.local.*
+credentials*
+*.session
+*.session-*
+*.pem
+*.key
+*.p12
+*.pfx
+# Private datasets, indexes, logs and exports
+*.sqlite*
+*.db
+*.db-*
+*.jsonl
+*.log
+*.pid
+*.lock
+!package-lock.json
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.heic
+*.pdf
+*.csv
+*.tsv
+*.zip
+*.onnx
+data/
+exports/
+models/
+reports/
+semantic-validation.json
+# Generated files
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
